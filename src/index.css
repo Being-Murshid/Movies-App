@@ -5,8 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@600&display=swap');
 
 :root {
-    --primary : hsl(0, 0%, 0%); 
+    --primary : #000000; 
     --secondary : #F33F3F;
     --default : #E1E1E1;
     --btnvariant : #ECBFC0;
+    --btnvariant1 : #1F1F1F;
+
 }

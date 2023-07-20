@@ -8,6 +8,7 @@ module.exports = {
         secondary: "var(--secondary)",
         default: "var(--default)",
         btnvariant: "var(--btnvariant)",
+        btnvariant1: "var(--btnvariant1)",
       },
     },
   },
