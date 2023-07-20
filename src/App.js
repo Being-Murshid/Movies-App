@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import{
+  CreateAccount , 
+  CreatewatchListBtn,
+  InputField
+ } from "./components/Common";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CreateAccount />
+      <InputField type="text" variant="secondary" label='lanasdk' width ={'w-[279px]'} height={'h-[45px]'} />
+
+      <CreatewatchListBtn
+        width="w-[247px]"
+        height="h-[41px]"
+        label="+  Create watchlist"
+        lineHeight="leading-[19.2px]"
+        variant="secondary"
+      />
+    </>
   );
 }
 
