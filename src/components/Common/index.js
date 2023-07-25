@@ -3,3 +3,5 @@ export { default as CreatewatchListBtn } from "./CreatewatchListBtn/CreatewatchL
 export { default as InputField } from "./InputField/InputField";
 export { default as HomeBtn } from "./HomeBtn/HomeBtn";
 export { default as HistoryBtn } from "./HistoryBtn/HistoryBtn";
+export { default as Logo } from "./Logo/Logo";
+export { default as Profile } from "./Profile/Profile";

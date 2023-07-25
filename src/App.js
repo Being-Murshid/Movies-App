@@ -1,15 +1,25 @@
+import { Home, History } from "./Pages";
 import {
   CreateAccount,
   CreatewatchListBtn,
   InputField,
   HomeBtn,
-  HistoryBtn
+  HistoryBtn,
+  Profile,
+  // Logo
 } from "./components/Common";
 
 function App() {
   return (
     <>
+      {/* <Logo /> */}
+      <Home bg="bg-primary" />
+      <Profile />
+
+      
+      <History />
       <CreateAccount />
+      
 
       <InputField
         type="text"

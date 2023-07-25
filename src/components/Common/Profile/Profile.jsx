@@ -1,11 +1,11 @@
 import React from 'react'
 
-const History = () => {
+const Profile = () => {
   return (
     <div>
-      <h1>ok</h1>
+       
     </div>
   )
 }
 
-export default History
+export default Profile
