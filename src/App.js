@@ -7,20 +7,38 @@ import {
   HistoryBtn,
   Profile,
   // Logo
+  WatchList
 } from "./components/Common";
 
 function App() {
   return (
     <>
-      {/* <Logo /> */}
       <Home bg="bg-primary" />
-      <Profile />
+      {/* <WatchList
+        width="w-[247px]"
+        height="h-[41px]"
+        label="Movies by Tom Cruise"
+        variant="primary"
+      />
+      <WatchList
+        width="w-[247px]"
+        height="h-[41px]"
+        label="Movies by Tom Cruise"
+        variant="secodary"
+      />
+      <WatchList
+        width="w-[247px]"
+        height="h-[41px]"
+        label="Movies by Tom Cruise"
+        variant="base"
+      /> */}
 
-      
-      <History />
+     
+
+      {/* <Logo /> */}
+      {/* <History /> */}
+      <Profile bg="bg-primary" />
       <CreateAccount />
-      
-
       <InputField
         type="text"
         variant="secondary"
@@ -28,7 +46,6 @@ function App() {
         width={"w-[279px]"}
         height={"h-[45px]"}
       />
-
       <CreatewatchListBtn
         width="w-[247px]"
         height="h-[41px]"
@@ -36,7 +53,6 @@ function App() {
         lineHeight="leading-[19.2px]"
         variant="primary"
       />
-
       <HomeBtn
         width="w-[247px]"
         height="h-[41px]"

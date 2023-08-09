@@ -5,3 +5,4 @@ export { default as HomeBtn } from "./HomeBtn/HomeBtn";
 export { default as HistoryBtn } from "./HistoryBtn/HistoryBtn";
 export { default as Logo } from "./Logo/Logo";
 export { default as Profile } from "./Profile/Profile";
+export { default as WatchList } from "./WatchList/WatchList";
